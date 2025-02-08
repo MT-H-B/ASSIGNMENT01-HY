@@ -7,17 +7,16 @@ public class NumberFour {
     static int sum(int[] numbers) {
         int sum = 0;
 
-        for (int i = 0; i < numbers.length; i++) {
-            sum += numbers[i];
+        for (int number : numbers) {
+            sum += number;
         }
 
         return sum;
     }
 
     static int average(int[] numbers) {
-        int average = sum(numbers) / numbers.length;
 
-        return average;
+        return sum(numbers) / numbers.length;
     }
 
     static int[] bubbleSort(int[] numbers) {
@@ -35,17 +34,15 @@ public class NumberFour {
     }
 
     static int max(int[] numbers) {
-        int sort[] = bubbleSort(numbers);
-        int max = sort[numbers.length - 1];
+        int[] sort = bubbleSort(numbers);
 
-        return max;
+        return sort[numbers.length - 1];
     }
 
     static int min(int[] numbers) {
-        int sort[] = bubbleSort(numbers);
-        int min = sort[0];
+        int[] sort = bubbleSort(numbers);
 
-        return min;
+        return sort[0];
     }
 
     public static void main(String[] args) {
