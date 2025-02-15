@@ -2,7 +2,7 @@ package ch06.date03.numberEight;
 
 public class Chicken implements Eatable{
 
-    public int number;
+    private int number;
 
     @Override
     public void eat() {

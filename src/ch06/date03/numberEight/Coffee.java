@@ -2,7 +2,7 @@ package ch06.date03.numberEight;
 
 public class Coffee implements Drinkable{
 
-    public int capacity;
+    private int capacity;
 
     @Override
     public void drink() {

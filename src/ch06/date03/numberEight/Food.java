@@ -2,8 +2,8 @@ package ch06.date03.numberEight;
 
 public class Food {
 
-    public int calorie;
-    public String origin;
+    private int calorie;
+    private String origin;
 
     public int getCalorie() {
         return calorie;

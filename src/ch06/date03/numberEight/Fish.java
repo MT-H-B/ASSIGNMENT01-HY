@@ -2,7 +2,7 @@ package ch06.date03.numberEight;
 
 public class Fish implements Eatable{
 
-    public int number;
+    private int number;
 
     @Override
     public void eat() {
